@@ -20,13 +20,13 @@ However, analysis from 2018 showed a very different outcome for these stocks. Al
 While the results of both the original and refactored code are the same, improvements behind the scenes were made by refactoring the code. The refactored code is easier to read and follow when looking through it. It is a much cleaner presentation once items are condensed and quicker to find a specific line of code. 
 
 The most important element in the analysis that was improved by refactoring the code was the time taken to run the program. <br>
-<img width="433" alt="2017_Original" src="https://user-images.githubusercontent.com/106560606/175837803-39071fbb-f1f3-43c6-bbc3-0d5c7c7d28e6.png">
+<img width="433" alt="2017_Original" src="https://user-images.githubusercontent.com/106560606/175837803-39071fbb-f1f3-43c6-bbc3-0d5c7c7d28e6.png"><br>
 For 2017 the time improved from .5625 sec to .09765625 sec.<br>
-<img width="431" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/106560606/175837807-35db47ac-0060-4b8d-8729-869fc846bdf8.png">
+<img width="431" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/106560606/175837807-35db47ac-0060-4b8d-8729-869fc846bdf8.png"><br>
 
 
-<img width="433" alt="2018_Original" src="https://user-images.githubusercontent.com/106560606/175837805-d933fa2a-d0af-4974-97ee-02291f319098.png">
+<img width="433" alt="2018_Original" src="https://user-images.githubusercontent.com/106560606/175837805-d933fa2a-d0af-4974-97ee-02291f319098.png"><br>
 For 2018 the time improved from .578125 sec to .1054688 sec. <br>
-<img width="437" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/106560606/175837808-a0642b43-57ff-468d-b547-28834d5d2480.png">
+<img width="437" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/106560606/175837808-a0642b43-57ff-468d-b547-28834d5d2480.png"><br>
 
 Refactoring code can be beneficial in circumstances such as this where time for processing is reduced. Although this analysis only used 12 stocks, in a situation where there are thousands of data points the improvement of time can be very important. However, since this was such a small size of data the time taken to refactor the code out-weighed the time reduction of the actual analysis. If it is only being used once for a very quick application, it could be detrimental to take that much time to refactor the code to gain milliseconds of improvement. 
